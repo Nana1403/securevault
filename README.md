@@ -1,9 +1,7 @@
 ## 🔐 SecureVault
 
-SecureVault is a local-first desktop password manager built with Python, Tkinter,
-SQLite, Pydantic, Argon2id, and AES-256-GCM. Its green-and-black interface keeps
-the core workflows approachable: set up a vault, save accounts, search, generate
-passwords, review vault health, and create encrypted backups.
+SecureVault is a secure desktop password manager built with Python, Tkinter, SQLite, Pydantic, Argon2id, and AES-256-GCM. It lets you save and search accounts, generate strong passwords, check your vault’s security, and create encrypted backups.
+
 
 ## Features
 
@@ -155,9 +153,9 @@ Your master password is never saved. Instead, the app uses Argon2id and a unique
 
 During setup, the app gives you a strong recovery key. This key protects the same encryption key as your master password, but through a separate recovery method. It is only shown once and is never stored as readable text, so you must save it somewhere safe. There is no secret backdoor for recovering your vault.
 
-Some basic information—such as account names, categories, tags, dates, and favorite settings—remains unencrypted so the app can organize and sort your accounts. Sensitive details remain encrypted. When you search sensitive fields, the app temporarily decrypts the information in memory only after the vault has been unlocked.
+Some basic information such as account names, categories, tags, dates, and favorite settings remains unencrypted so the app can organize and sort your accounts. Sensitive details remain encrypted. When you search sensitive fields, the app temporarily decrypts the information in memory only after the vault has been unlocked.
 
-Although this educational app uses trusted security methods, it has not been professionally audited. Before using it in a real-world, high-security environment, it should receive an independent security review and additional protections, such as secure device storage and digitally signed releases.
+Although this educational app uses trusted security methods, it has not been professionally audited. Before using it in a real world, high-security environment, it should receive an independent security review and additional protections, such as secure device storage and digitally signed releases.
 
 ## Demo Walkthrough
 
