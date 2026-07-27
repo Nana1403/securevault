@@ -160,7 +160,7 @@ Some basic information such as account names, categories, tags, dates, and favor
 
 Although this educational app uses trusted security methods, it has not been professionally audited. Before using it in a real world, high-security environment, it should receive an independent security review and additional protections, such as secure device storage and digitally signed releases.
 
-## Run the app
+## Running the app
 
 Python 3.11 or newer is recommended.
 
