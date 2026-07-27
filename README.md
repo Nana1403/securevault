@@ -20,6 +20,9 @@ SecureVault is a secure desktop password manager built with Python, Tkinter, SQL
 - Encrypted backup and authenticated restore
 - Configurable inactivity, clipboard, and password-age thresholds
 
+## Demo Walkthrough
+
+<img src="images/demo.gif" width=500>
 
 ## Heads Up
 
@@ -156,11 +159,6 @@ During setup, the app gives you a strong recovery key. This key protects the sam
 Some basic information such as account names, categories, tags, dates, and favorite settings remains unencrypted so the app can organize and sort your accounts. Sensitive details remain encrypted. When you search sensitive fields, the app temporarily decrypts the information in memory only after the vault has been unlocked.
 
 Although this educational app uses trusted security methods, it has not been professionally audited. Before using it in a real world, high-security environment, it should receive an independent security review and additional protections, such as secure device storage and digitally signed releases.
-
-## Demo Walkthrough
-
-<img src="images/demo.gif" width=500>
-
 
 ## Run the app
 
